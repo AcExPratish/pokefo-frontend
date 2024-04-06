@@ -6,10 +6,10 @@ import Success from "./modules/auth/verify/Success";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="pokefo-frontend">
         <Routes>
-          <Route path="/" element={<VerificationCode />} />
-          <Route path="/success" element={<Success />} />
+          <Route path="/pokefo-frontend" element={<VerificationCode />} />
+          <Route path="/pokefo-frontend/success" element={<Success />} />
         </Routes>
       </BrowserRouter>
     </>
