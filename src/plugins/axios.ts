@@ -16,7 +16,7 @@ export const callAxios = async ({
   headers,
   params,
 }: CallAxiosAPIProps) => {
-  let baseURL: string = "https://3.86.8.207/api/";
+  let baseURL: string = "http://3.86.8.207/api/";
 
   const config: AxiosRequestConfig = {
     method: method || "GET",
