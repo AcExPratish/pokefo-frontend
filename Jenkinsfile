@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Test pipeline!'
+                echo 'pokefo-frontend test pipeline'
             }
         }
     }
